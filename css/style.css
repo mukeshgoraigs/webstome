@@ -5,6 +5,25 @@
 .mynav li{
     float: left;
     display: block;
-    padding: 40px;
+    padding: 20px;
     tab-size: 20px;
+}
+.active{
+    background:#009999;
+}
+.my-menu{
+    margin-top: 10px;
+
+}
+.my-menu .navbar-default{
+    background: none;
+    border: none;
+}
+.my-menu .mynav .active a , .my-menu .mynav .active a:hover{
+
+    color: white;
+}
+.my-menu .mynav li a{
+    background-color: #009999;
+    color: white;
 }
