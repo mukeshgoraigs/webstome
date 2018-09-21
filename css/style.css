@@ -8,7 +8,7 @@
     padding: 20px;
     tab-size: 20px;
 }
-.active{
+.active {
     background:#009999;
 }
 .my-menu{
@@ -23,7 +23,18 @@
 
     color: white;
 }
-.my-menu .mynav li a{
+.my-menu .mynav li a:hover{
+
     background-color: #009999;
     color: white;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    padding: 5px;
+    font-size: 35px;
+    font-weight: 800;
+    border-width: 2px;
+    border-bottom-style: ridge;
+    border-color: #009999;
 }
